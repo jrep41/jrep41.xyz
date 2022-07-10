@@ -27,12 +27,19 @@ article {
   border: 1px solid black;
 }
 
-table {
-  flex: flex;
+table  {
+  
   background-color: aquamarine;
   width: 30%;
+  border: 1px solid red;
+}
 
+td{
   border: 1px solid black;
+  padding: auto;
+  /* contenido de celdas centrado */
+  text-align: center;
+  
 }
 
 ol li {
