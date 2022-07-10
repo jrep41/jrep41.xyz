@@ -1,0 +1,44 @@
+main {
+  background-color: grey;
+  width: 100%;
+  border: 1px solid black;
+}
+
+div {
+  display: flex;
+  border: 1px solid blue;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  align-content: space-between;
+  background-color: aquamarine;
+  width: 50%;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+article {
+  background-color: cadetblue;
+  width: 40%;
+  margin: 10px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+table {
+  flex: flex;
+  background-color: aquamarine;
+  width: 30%;
+
+  border: 1px solid black;
+}
+
+ol li {
+  display: inline-block;
+  background-color: aqua;
+  list-style-type: none;
+  padding: 15px;
+  border: 1px solid black;
+}
