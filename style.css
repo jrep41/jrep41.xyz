@@ -4,24 +4,21 @@ main {
   border: 1px solid black;
 }
 
-div {
-  display: flex;
-  border: 1px solid blue;
-  justify-content: space-between;
-}
+
 
 section {
   display: flex;
-  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
   background-color: aquamarine;
-  width: 50%;
   border: 1px solid black;
-  justify-content: space-between;
+  
 }
 
 article {
   background-color: cadetblue;
-  width: 40%;
+  width: 30%;
   margin: 10px;
   padding-left: 15px;
   border: 1px solid black;
