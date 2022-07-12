@@ -6,34 +6,35 @@ main {
 
 
 
+
 section {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-content: flex-end;
   background-color: aquamarine;
-  border: 1px solid black;
-  
+  border: 1px solid black;  
 }
 
 article {
   background-color: cadetblue;
   width: 30%;
-  margin: 10px;
-  padding-left: 15px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1,5em;
   border: 1px solid black;
 }
 
 table  {
   
   background-color: aquamarine;
-  width: 30%;
+  margin-right: 2em;
+  margin-left: 2em;
   border: 1px solid red;
 }
 
 td{
   border: 1px solid black;
-  padding: auto;
+  /* padding: auto; */
   /* contenido de celdas centrado */
   text-align: center;
   
@@ -43,6 +44,6 @@ ol li {
   display: inline-block;
   background-color: aqua;
   list-style-type: none;
-  padding: 15px;
+  padding: 1em;
   border: 1px solid black;
 }
