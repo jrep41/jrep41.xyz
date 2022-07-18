@@ -1,4 +1,6 @@
 main {
+  
+  align-items: center;
   background-color: grey;
   width: 100%;
   border: 1px solid black;
@@ -8,8 +10,8 @@ main {
 
 
 section {
-  display: flex;
-  flex-wrap: wrap;
+  display: flexbox;
+  flex-wrap: nowrap;
   background-color: aquamarine;
   border: 1px solid black;  
 }

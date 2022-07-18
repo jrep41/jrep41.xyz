@@ -15,3 +15,4 @@ boton.addEventListener('click', () => {
   var ultimo = tareas.lastElementChild;
   console.log(ultimo);
 });
+
