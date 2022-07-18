@@ -1,50 +1,55 @@
+html,
+body {
+  height: 100%;
+  background-color: cadetblue;
+}
+
 main {
-  
-  align-items: center;
+  /* align-items: center; */
   background-color: grey;
   width: 100%;
   border: 1px solid black;
 }
 
-
-
-
 section {
   display: flexbox;
   flex-wrap: nowrap;
+  margin-left: 5%;
+  width: 90%;
   background-color: aquamarine;
-  border: 1px solid black;  
+  border: 1px solid black;
 }
 
 article {
   background-color: cadetblue;
   width: 30%;
+  height: 40%;
   margin-left: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
-  padding-left: 1,5em;
+  padding-left: 1, 5em;
   border: 1px solid black;
   padding: 1em;
 }
 
-table  {
-  
+table {
   background-color: aquamarine;
   margin-right: 2em;
   margin-left: 2em;
   border: 1px solid red;
 }
 
-td{
+td,
+th {
   border: 1px solid black;
-  /* padding: auto; */
+  padding: auto;
   /* contenido de celdas centrado */
   text-align: center;
-  
 }
 
 ol li {
   display: inline-block;
+  align-content: flex-start;
   background-color: aqua;
   list-style-type: none;
   padding: 1em;
