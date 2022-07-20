@@ -1,1 +1,3 @@
-function scrollFunction() {window.scrollTo(0,0);}
+function scrollFunction() {
+  window.scroll(0, 0);
+}
