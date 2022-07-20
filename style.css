@@ -63,4 +63,5 @@ p {
 #cabecera {
   margin: 0 auto;
   max-width: fit-content;
+  padding-bottom: 1em;
 }
