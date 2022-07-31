@@ -52,7 +52,7 @@ ol li {
   background-color: aqua;
   list-style-type: none;
   padding: 1em;
-  border: 1px solid black;
+  border: 1px solid rgb(15, 15, 15);
 }
 
 p {
@@ -61,7 +61,9 @@ p {
 }
 
 #cabecera {
-  margin: 0 auto;
-  max-width: fit-content;
-  padding-bottom: 1em;
-}
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  }
+
+
