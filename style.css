@@ -25,11 +25,6 @@ article {
   margin-bottom: 1em;
   margin-top: 1em;
 }
-/* width: 30%;
-height: 40%;
-border: 1px solid black;
-padding: 1em;
-} */
 
 table {
   background-color: aquamarine;
@@ -67,3 +62,10 @@ p {
   }
 
 
+inicio {
+  color: #f0f;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  }
